@@ -39,7 +39,7 @@ block_sounds = {
     3: stone_sounds,   # cobblestone
     4: stone_sounds,   # diamond
     5: wood_sounds,    # oak log
-    6: stone_sounds,   # oak planks
+    6: wood_sounds,   # oak planks
     7: sand_sounds,    # sand
     8: stone_sounds,   # stone
 }
@@ -165,3 +165,4 @@ def input(key):
                 random.choice(block_sounds[current_block_type]).play()
 sky = Sky(texture='skybox.png') 
 app.run()
+
